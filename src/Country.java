@@ -3,10 +3,12 @@ public class Country implements Measurable{
     private double area;
 
     public Country() {
+        title = "Unknown";
+        area = 0;
     }
 
     public Country(String title, double area) {
-        if (title == (null)) {
+        if (title.isEmpty()) {
             title = "Unknown";
         }
         this.title = title;
