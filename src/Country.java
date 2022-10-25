@@ -1,6 +1,6 @@
 public class Country implements Measurable{
-    String title;
-    double area;
+    private String title;
+    private double area;
 
     public Country() {
     }
